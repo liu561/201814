@@ -1,0 +1,13 @@
+// 1. Number : 把其他数据类型的值强制转换成number类型；
+    //var  a  = Number("123")// 123
+    //var  a  = Number("123px");// NaN
+    //var  a  = Number(false);// true-->1  false-->0
+    //var  a  = Number(undefined);//null-->0  undefined-->NaN
+    //var  a  = Number({});//NaN
+    //var  a  = Number("");//0
+    //var  a  = Number([]);//0
+    //console.log(a);
+    // 2. isNaN : 用来判断是否是一个非有效数字的方法；如果是有效数字返回false，不是返回true；
+    // isNaN 执行时先默认调用Number方法，把值转换成number类型；然后再判断
+/ 1. Boolean: 把其他类型转布尔类型的方法;返回值只有两种可能true和false；
+    // 在JS中，只有0 、"" 、null 、undefined、NaN这五个值转布尔值是false；其余都是true；
